@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src ="@drawable/red_cross"
+        android:id = "@+id/red_cross"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id = "@+id/thirdintext1"
+        android:text = "예수님은 당신을 위해"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="70dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/thirdintext2"
+        android:layout_below="@+id/thirdintext1"
+        android:layout_marginLeft="70dp"
+        android:textSize="20dp"
+        android:text = "죽으셨습니다."
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/thirdintext3"
+        android:layout_below="@id/thirdintext2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20dp"
+        android:text = "예수님은 당신이 치러야 할 죄의 모든 대가를 대신하여 십자가에서 죽으셨습니다. 또한 죽음에서 다시 살아나심으로 하나님의 아들이심을 증명했습니다. 누구든지 그를 믿는 사람은 용서를 받습니다. 죄로 인해 분리되었던 당신은 예수님을 믿음으로 하나님과 다시 연결되고 영원한 생명을 얻게 됩니다."
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/thirdintext4"
+        android:layout_below="@+id/thirdintext3"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="성경은 이렇게 말합니다."
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/thirdintext5"
+        android:layout_below="@+id/thirdintext4"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="15dp"
+        android:text = "하나님께서 세상을 이처럼 사랑하셔서 독생자를 주셨으니 이는 그를 믿는 사람마다 멸망하지 않고 영생을 얻게 하려는 것이다."
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/thirdintext6"
+        android:layout_below="@id/thirdintext5"
+        android:layout_marginLeft="20dp"
+        android:text = "요한복음 3:16"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/thirdintext7"
+        android:layout_below="@id/thirdintext6"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="right"
+        android:text="그러나, 이 사실들을 아는 것만으로는 충분하지 않습니다"
+        android:textColor="@color/red"/>
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/thirdintext7"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:id = "@+id/page7"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:text = "7"/>
+
+</RelativeLayout>

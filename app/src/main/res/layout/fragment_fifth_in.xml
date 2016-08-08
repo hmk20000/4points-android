@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="30dp"
+    android:text="당신이 진심으로"
+    android:textColor="@color/black"
+    android:textSize="30dp"
+    android:id="@+id/tv1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="이 기도를 드렸다면"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:layout_below="@+id/tv1"
+        android:id="@+id/tv2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="예수님은 당신 안에"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_below="@+id/tv2"
+        android:id="@+id/tv3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="들어와 계시고,"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:layout_below="@+id/tv3"
+        android:id="@+id/tv4"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:text="하나님이 주시는"
+        android:textColor="@color/black"
+        android:layout_below="@+id/tv4"
+        android:id="@+id/tv5"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="영원한 생명을"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_below="@+id/tv5"
+        android:id="@+id/tv6"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="얻게 되었습니다."
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/tv6"
+        android:id="@+id/tv7"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="축하합니다.^^"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:layout_below="@+id/tv7"
+        android:id="@+id/tv8"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/tv8"
+        android:text="11"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:id="@+id/page11"/>
+</RelativeLayout>

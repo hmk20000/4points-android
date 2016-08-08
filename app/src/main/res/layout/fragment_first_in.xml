@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+<ImageView
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:src ="@drawable/red_heart"
+    android:id = "@+id/red_heart"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"/>
+    <TextView
+       android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id = "@+id/firstintext1"
+        android:text = "하나님은"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="70dp"
+
+         />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/firstintext2"
+            android:textSize="20dp"
+            android:text = "당신을 사랑합니다"
+            android:textColor="@color/black"
+            android:layout_below="@+id/firstintext1"
+            android:layout_marginLeft="70dp"
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/firstintext3"
+        android:layout_below="@id/firstintext2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:text = "당신은 하나님이 만드신 귀한 존재입니다. 그렇기에 하나님은 당신의 존재 자체를 기뻐하시고 사랑하십니다. 이러한 하나님의 사랑은 조건이 없으며 무한합니다. 하나님은 당신이 그 사랑을 알고 삶의 목적을 발견하기를 원하십니다"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/firstintext4"
+        android:layout_below="@+id/firstintext3"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="성경은 이렇게 말합니다."
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/firstintext5"
+        android:layout_below="@+id/firstintext4"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="15dp"
+        android:text = "하나님은 사랑이십니다. 누구든지 그 사랑안에 거하는 사람은 하나님 안에 있고 하나님도 그 사람안에 계십니다."
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/firstintext6"
+        android:layout_below="@id/firstintext5"
+        android:layout_marginLeft="20dp"
+        android:text = "요한일서 4:16"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/firstintext7"
+        android:layout_below="@id/firstintext6"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="right"
+        android:text="그런데 왜 당신은 삶 속에서 하나님의 사랑을 느끼지 못할까요?"
+        android:textColor="@color/red"/>
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/firstintext7"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:text="3"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        />
+
+</RelativeLayout>

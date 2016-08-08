@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src ="@drawable/red_ex"
+        android:id = "@+id/red_ex"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id = "@+id/secondintext1"
+        android:text = "죄는 당신과 하나님을"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="70dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/secondintext2"
+        android:layout_below="@+id/secondintext1"
+        android:textSize="20dp"
+        android:text = "단절시켰습니다."
+        android:layout_marginLeft="70dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/secondintext3"
+        android:layout_below="@id/secondintext2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:text = "그래서 당신은 하나님의 사랑과 계획을 알 수가 없습니다. 죄의 결과는 죽음(영적으로 하나님으로부터 분리된 상태)입니다. 성경은 하나님에 대한 무관심도 죄라고 말합니다. 사람은 죄의 문제를 스스로 해결할 수 없습니다. 죄는 당신과 하나님의 관계를 깨뜨리고 하나님이 계획하신 삶에서 멀어지게 합니다"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/secondintext4"
+        android:layout_below="@+id/secondintext3"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:text="성경은 이렇게 말합니다."
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/secondintext5"
+        android:layout_below="@+id/secondintext4"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="15dp"
+        android:text = "모든 사람이 죄를 지었으므로 하나님의 영광에 이르지 못합니다."
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/secondintext6"
+        android:layout_below="@id/secondintext5"
+        android:layout_marginLeft="20dp"
+        android:text = "로마서 3:23"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/secondintext7"
+        android:layout_below="@id/secondintext6"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:gravity="right"
+        android:text="당신을 위한 하나님의 계획은 예수 그리스도로부터 시작됩니다."
+        android:textColor="@color/red"/>
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/secondintext7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:id = "@+id/page5"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:text = "5"/>
+
+</RelativeLayout>

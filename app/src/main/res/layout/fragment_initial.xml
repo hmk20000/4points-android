@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red">
+    <ImageView
+     android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:id="@+id/heart"
+        android:src="@drawable/heart"
+        android:layout_marginTop="70dp"
+
+        android:layout_marginLeft="80dp"
+        />
+    <ImageView
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:id="@+id/ex"
+        android:src="@drawable/ex"
+        android:layout_marginTop="70dp"
+
+        android:layout_marginLeft="200dp" />
+
+    <ImageView
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:id="@+id/cross"
+        android:src="@drawable/cross"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="80dp"
+       />
+    <ImageView
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:id="@+id/question"
+        android:src="@drawable/question"
+        android:layout_marginTop="190dp"
+
+        android:layout_marginLeft="200dp"
+         />
+    <TextView
+        android:id="@+id/points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/cross"
+        android:text="4POINTS"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/points"
+        android:text="네개의 심벌은 성경의 중요한 메시지를 표현한 것입니다."
+        android:textSize="27dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:id="@+id/textView" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="1"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:id="@+id/page"
+        android:layout_below="@+id/textView"/>
+</RelativeLayout>

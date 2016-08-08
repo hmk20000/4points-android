@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src ="@drawable/red_question"
+        android:id = "@+id/red_question"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="70dp"
+        android:id = "@+id/fourthintext1"
+        android:text = "당신은 어떤 선택을 "
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/fourthintext2"
+        android:layout_below="@+id/fourthintext1"
+        android:layout_marginLeft="70dp"
+        android:textSize="20dp"
+        android:text = "하시겠습니까?"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/fourthintext3"
+        android:layout_below="@id/fourthintext2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20dp"
+        android:text = "하나님께서 주시는 영원한 생명을 얻기 위해서는 예수님이 당신을 위해 십자가에서 죽었다는 것과 사흘 만에 부활하셔서 지금도 당신 곁에 살아계신 것을 믿어야 합니다. 단절되어 있는 하나님과의 관계를 회복하고 당신의 모든 죄를 용서받기 원하십니까?"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/fourthintext32"
+        android:layout_below="@id/fourthintext3"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:text = "그렇다면 지금 기도를 드리십시오."
+        android:textColor="@color/black"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/fourthintext4"
+        android:layout_below="@+id/fourthintext32"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="성경은 이렇게 말합니다."
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/fourthintext5"
+        android:layout_below="@+id/fourthintext4"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="15dp"
+        android:text = "그분을 영접한 사람들,곧 그분의 이름을 믿는 사람들에게는 하나님의 자녀가 될 권세를 주셨습니다."
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/fourthintext6"
+        android:layout_below="@id/fourthintext5"
+        android:layout_marginLeft="20dp"
+        android:text = "요한복음 1:12"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/fourthintext7"
+        android:layout_below="@id/fourthintext6"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="right"
+        android:text="당신이 진심으로 기도한다면 하나님은 당신을 구원하실 것입니다."
+        android:textColor="@color/red"/>
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/fourthintext7"
+        android:layout_marginBottom="5dp"
+        android:layout_centerHorizontal="true"
+        android:id = "@+id/page9"
+        android:text = "9"
+        android:textSize="15dp"
+        android:gravity="right"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>

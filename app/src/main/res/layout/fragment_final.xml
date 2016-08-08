@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/happyfriends"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/happyfriends"/>
+
+
+    <TextView
+        android:id="@+id/final1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="CCC"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/happyfriends"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/foursymbols"
+        android:src="@drawable/foursymbols"
+        android:layout_alignLeft="@+id/final2"
+        android:layout_alignStart="@+id/final2"
+        android:layout_below="@+id/final1"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/final2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4POINTS CARD"
+        android:textSize="27dp"
+        android:textStyle="bold"
+
+        android:layout_alignBottom="@+id/foursymbols"
+        android:layout_alignLeft="@+id/happyfriends"
+        android:layout_alignStart="@+id/happyfriends"
+        android:layout_marginBottom="50dp"
+         />
+    <TextView
+        android:id="@+id/final3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distributed by CCC 한국대학생선교회"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+
+        android:layout_alignBottom="@+id/foursymbols"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/final4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/final3"
+        android:text="www.facebook.com/the4pointskorea cccvlm01@kccc.org / 02-397-6297"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+</RelativeLayout>

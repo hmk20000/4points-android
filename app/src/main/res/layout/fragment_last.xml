@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="영적 성장을 위한"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:id="@+id/last1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT STEPS"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/last1"
+        android:id="@+id/last2"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="390dp"
+        android:layout_below="@id/last2"
+        android:id="@+id/whitebox"
+        android:background="@drawable/white"
+        android:text = " 1. 날마다 기도하세요. 대화하듯이 하나님께 당신의 마음을 이야기 해 보세요.\n2. 하나님의 말씀인 성경을 읽으면 신앙성장에 도움이 됩니다.\n
+3. 하나님의 말씀을 올바로 전하는 교회에 나가서 지도를 받으세요. \n다른 크리스천들과의 교제도 필요합니다.\n
+4. 당신이 경험한 하나님을 다른 사람들에게 전하세요."
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="12"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:id="@+id/page12"
+
+        android:layout_below="@+id/whitebox"/>
+</RelativeLayout>

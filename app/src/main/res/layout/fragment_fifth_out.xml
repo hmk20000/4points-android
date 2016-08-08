@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="당신은 바로 지금 기도로 \n예수님을 받아들일 수 있습니다."
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:id="@+id/fifth1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="기도는 하나님과 이야기하는 것입니다. 이렇게 기도해 보세요."
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/fifth1"
+        android:id="@+id/fifth2"/>
+
+<Button
+    android:layout_width="300dp"
+    android:layout_height="395dp"
+    android:layout_below="@+id/fifth2"
+    android:id="@+id/whitebox"
+    android:background="@drawable/white"
+    android:text = "주 예수님 나는 주님을 믿고 싶습니다 십자가에서 죽으셔서 내 죄값을 치러주시니 감사합니다. 나는 지금 내 마음의 문을 열고 예수님을 나의 구원자 나의 하나님으로 받아들입니다. 나의 죄를 용서하시고 영원한 생명을 주심을 감사합니다 나를 다스리시고 주님이 원하시는 사람으로 만들어 주세요. 예수님의 이름으로 기도합니다. 아멘."
+    android:textSize="17dp"
+    android:textColor="@color/black"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="10"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:id="@+id/page10"
+        android:layout_below="@+id/whitebox"/>
+
+</RelativeLayout>
