@@ -6,9 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * Created by seogiwon on 2016. 8. 3..
- */
+
 public class ThirdOutFragment extends Fragment {
     ViewGroup rootView;
     public View onCreateView(final LayoutInflater inflater, ViewGroup container,

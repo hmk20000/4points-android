@@ -3,9 +3,7 @@ package com.example.seogiwon.four_points;
 import android.app.Activity;
 import android.widget.Toast;
 
-/**
- * Created by seogiwon on 2016. 8. 8..
- */
+
 public class BackPressCloseHandler {
 
     /**

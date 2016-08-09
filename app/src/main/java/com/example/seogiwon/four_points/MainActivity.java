@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
                     intent = new Intent(getApplicationContext(), MainShowFourPointsActivity.class);
                     startActivity(intent);
+                    finish();
 
 
 

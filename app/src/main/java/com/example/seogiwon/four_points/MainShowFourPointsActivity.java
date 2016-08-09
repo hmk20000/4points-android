@@ -8,6 +8,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -23,7 +24,7 @@ public class MainShowFourPointsActivity extends AppCompatActivity {
 
 
     // GPS 위도, 경도 값
-    double latitude, longitude;
+   // double latitude, longitude;
 
     // 뒤로 버튼 두 번 눌러서 종료되도록
 
@@ -33,6 +34,8 @@ public class MainShowFourPointsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         this.setTitle(""); // 포커스 문제 때문에 activity title 없애기
         setContentView(R.layout.activity_showfourpoints);
+
+
 
         // 액션바 처리 부분
         //    Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -88,11 +91,14 @@ public class MainShowFourPointsActivity extends AppCompatActivity {
         adapter.addItem(lastFragment,"표지");
 
         FinalFragment finalFragment = new FinalFragment();
-       adapter.addItem(finalFragment,"마지막");
+       adapter.addItem(finalFragment, "마지막");
         //   전체적인 탭 설정
         pager.setAdapter(adapter);
         tabs = (TabLayout) findViewById(R.id.tabs);
         tabs.setupWithViewPager(pager);
+
+        // 페이지 툴바 안보이게 하기.
+        tabs.setVisibility(TextView.GONE);
 
         tabs.getTabAt(0).setText("표지");
         tabs.getTabAt(1).setText("1-1");
@@ -108,14 +114,12 @@ public class MainShowFourPointsActivity extends AppCompatActivity {
         tabs.getTabAt(11).setText("표지");
         tabs.getTabAt(12).setText("마지막");
 
+
     }
 
 
-
-
-
-
     /* 전체 탭바를 관리하는 페이저 설정 */
+
     class MainPagerAdapter extends FragmentStatePagerAdapter {
         ArrayList<Fragment> items = new ArrayList<Fragment>();
         ArrayList<String> titles = new ArrayList<String>();
@@ -143,6 +147,7 @@ public class MainShowFourPointsActivity extends AppCompatActivity {
         public void addItem(Fragment fragment, String title) {
             items.add(fragment);
             titles.add(title);
+
         }
 
         @Override
@@ -156,4 +161,5 @@ public class MainShowFourPointsActivity extends AppCompatActivity {
         }
 
     }
+
 }

@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">four_points</string>
+
+    //앱 name은 프로젝트이름이 아닌 앱이름으로 변경 16.08.09
+    <string name="app_name">4Points</string>
     <color name="red">#FF000F</color>
     <color name="white"> #FFFFFF</color>
     <color name="black">#000000</color>
