@@ -8,6 +8,8 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.View;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -20,7 +22,8 @@ public class MainShowFourPointsActivity extends AppCompatActivity {
     // 탭바 설정
     ViewPager pager;
     TabLayout tabs;
-
+    //툴바 변수 생성
+    Toolbar toolbar;
 
 
 
@@ -94,7 +97,7 @@ public class MainShowFourPointsActivity extends AppCompatActivity {
         tabs = (TabLayout) findViewById(R.id.tabs);
         tabs.setupWithViewPager(pager);
 
-        // 페이지 툴바 안보이게 하기.
+        // 페이지 탭바 안보이게 하기.
         tabs.setVisibility(TextView.GONE);
 
         tabs.getTabAt(0).setText("표지");
@@ -111,6 +114,10 @@ public class MainShowFourPointsActivity extends AppCompatActivity {
         tabs.getTabAt(11).setText("표지");
         tabs.getTabAt(12).setText("마지막");
 
+
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        //툴바 안보이게 하기
+        toolbar.setVisibility(View.GONE);
 
     }
 
