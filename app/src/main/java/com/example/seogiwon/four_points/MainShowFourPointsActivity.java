@@ -23,8 +23,6 @@ public class MainShowFourPointsActivity extends AppCompatActivity {
 
 
 
-    // GPS 위도, 경도 값
-   // double latitude, longitude;
 
     // 뒤로 버튼 두 번 눌러서 종료되도록
 
