@@ -36,13 +36,12 @@ public class MainShowFourPointsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_showfourpoints);
 
 
-
         // 액션바 처리 부분
-        //    Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        //    setSupportActionBar(toolbar);
+//            Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+            //setSupportActionBar(toolbar);
 
-        //    ActionBar actionBar = getSupportActionBar();
-        //     actionBar.setDisplayShowTitleEnabled(false);
+ //           ActionBar actionBar = getSupportActionBar();
+  //           actionBar.setDisplayShowTitleEnabled(false);
 
         // 뒤로 버튼 두 번 눌러 종료되도록
         Intent intent = getIntent();
