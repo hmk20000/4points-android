@@ -28,6 +28,7 @@ public class MainShowFourPointsActivity extends AppCompatActivity {
 
 
     // 뒤로 버튼 두 번 눌러서 종료되도록
+    //브랜치 추가
 
 
     @Override
