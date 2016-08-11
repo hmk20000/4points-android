@@ -14,8 +14,6 @@ public class FirstInFragment  extends Fragment {
                              Bundle savedInstanceState) {
 
         rootView = (ViewGroup) inflater.inflate(R.layout.fragment_first_in, container, false);
-        //   ImageView imageView = (ImageView) rootView.findViewById(R.id.heart);
-        //  imageView.setImageResource(R.drawable.heart);
 
         return rootView;
     }

@@ -15,8 +15,7 @@ public class InitialFragment  extends Fragment {
                              Bundle savedInstanceState) {
 
         rootView = (ViewGroup) inflater.inflate(R.layout.fragment_initial, container, false);
-//    ImageView imageView = (ImageView) rootView.findViewById(R.id.cross);
-//    imageView.setImageResource(R.drawable.cross);
+
 
         return rootView;
     }

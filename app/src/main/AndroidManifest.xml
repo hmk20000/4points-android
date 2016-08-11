@@ -19,5 +19,6 @@
         <activity android:name=".MainShowFourPointsActivity"/>
 
     </application>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
 </manifest>
