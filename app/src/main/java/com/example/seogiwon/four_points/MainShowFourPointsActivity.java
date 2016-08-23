@@ -51,7 +51,7 @@ public class MainShowFourPointsActivity extends AppCompatActivity {
 
         // 뒤로 버튼 두 번 눌러 종료되도록
         Intent intent = getIntent();
-
+        final int pageNum = intent.getIntExtra("pageNum",0);
         // 탭 처리 부분
         pager = (ViewPager) findViewById(R.id.pager);
         MainPagerAdapter adapter = new MainPagerAdapter(getSupportFragmentManager());
@@ -98,7 +98,15 @@ public class MainShowFourPointsActivity extends AppCompatActivity {
         FinalFragment finalFragment = new FinalFragment();
        adapter.addItem(finalFragment, "마지막");
         //   전체적인 탭 설정
+
         pager.setAdapter(adapter);
+        pager.postDelayed(new Runnable() {
+
+            @Override
+            public void run() {
+                pager.setCurrentItem(pageNum);
+            }
+        }, 100);
         tabs = (TabLayout) findViewById(R.id.tabs);
         tabs.setupWithViewPager(pager);
 
@@ -159,6 +167,7 @@ public class MainShowFourPointsActivity extends AppCompatActivity {
             titles.add(title);
 
         }
+
 
         @Override
         public Fragment getItem(int position) {
@@ -229,6 +238,11 @@ public class MainShowFourPointsActivity extends AppCompatActivity {
             case R.id.menu_record:
                 Toast.makeText(getApplicationContext(), "기록보기",
                         Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.menu_gather:
+                Toast.makeText(getApplicationContext(), "모아보기",
+                        Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(getApplication(), AllPageActivity.class));
                 return true;
         }
         return super.onOptionsItemSelected(item);

@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         // 뒤로 버튼 두 번 눌러 종료되도록
         backPressCloseHandler = new BackPressCloseHandler(this);
 
-        //navigationBT = (Button)findViewById(R.id.mainNavigationBT);
+
     //로딩화면 3초후에 메인화면으로 자동 넘어가기.
         Handler hd = new Handler();
         hd.postDelayed(new splashhandler(), 3000); // 3초 후에 hd Handler 실행
@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
     private class splashhandler implements Runnable{
         public void run() {
             startActivity(new Intent(getApplication(), MainShowFourPointsActivity.class)); // 로딩이 끝난후 이동할 Activity
+        //    startActivity(new Intent(getApplication(), AllPageActivity.class));
             MainActivity.this.finish(); // 로딩페이지 Activity Stack에서 제거
         }
 

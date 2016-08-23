@@ -17,6 +17,7 @@
         </activity>
 
         <activity android:name=".MainShowFourPointsActivity"/>
+        <activity android:name=".AllPageActivity"/>
 
     </application>
 
