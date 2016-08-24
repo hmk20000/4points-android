@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/question1"
-        android:text="예수님은 당신을 위해 "
+        android:text="당신은 어떤 선택을 "
         android:textSize="30dp"
         android:layout_marginTop="45dp"
         />
@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/fourth"
-        android:text="죽으셨습니다."
+        android:text="하시겠습니까?"
         android:textSize="30dp"
         android:layout_marginTop="5dp"
         />

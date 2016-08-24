@@ -7,7 +7,7 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="모아보"
+        android:text="모아보기"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <GridView
